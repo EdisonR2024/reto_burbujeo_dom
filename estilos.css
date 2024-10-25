@@ -1,0 +1,26 @@
+
+#padre{
+    background-color: green;
+    height: 350px;
+    width: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    >p{
+        padding: 0;
+        margin: 0;
+        position: absolute;
+        z-index: 1;
+        top: 5%;
+        font-weight: bold;
+    }
+
+    #hijo{
+        background-color: cadetblue;
+        height: 250px;
+        width: 250px;
+        text-align: center;
+    }
+}
+
